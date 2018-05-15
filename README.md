@@ -7,10 +7,12 @@ This Terraform deployment configuration automatically sets up DigitalOcean dropl
 
 ## Initial Instructions
 
-- Install Terraform via [https://www.terraform.io](https://www.terraform.io)
+- Launch a server at Digital Ocean or use your local development environment. Both work fine. 
 - Create a DigitalOcean API token at [https://cloud.digitalocean.com/settings/api/tokens](https://cloud.digitalocean.com/settings/api/tokens).
 - Make sure API settings are set to Read/Write
 - Create SSH keys
+- Install Terraform via [https://www.terraform.io](https://www.terraform.io)
+- Clone this repository: `git clone https://github.com/benchlab/benchchain-terraform && cd benchchain-terraform`
 - Follow `BenchChain Terraform Build` instructions below.
 
 ## BenchChain Terraform Build
