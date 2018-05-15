@@ -29,7 +29,7 @@ This Terraform deployment configuration automatically sets up DigitalOcean dropl
 At the end you will get a complete list of BenchChain IP addresses that belong to all the new droplets that were launched via this deployment script.
 
 
-Destroy BenchChain Node
+Destroy BenchChain Cluster
 -------
 
 Run the command below:
