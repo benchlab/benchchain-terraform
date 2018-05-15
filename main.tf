@@ -5,7 +5,7 @@ variable "API" {
 }
 
 variable "BENCH_TESTNET_NAME" {
-  description = "Name of the BenchChain TestNet or BenchChain-related sidechain or dappchain to be deployed. "
+  description = "Name of the BenchChain TestNet or BenchChain-related sidechain or dappchain to be deployed."
   default = "benchchain-testnet"
 }
 
