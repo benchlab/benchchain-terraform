@@ -16,16 +16,15 @@ This Terraform deployment configuration automatically sets up DigitalOcean dropl
 ## BenchChain Terraform Build
 
 ```
-    export DO_API_TOKEN="your-digital-ocean-api-token"
-    export SSH_KEY_FILE="$HOME/.ssh/id_rsa.pub"
+    export API="your-digital-ocean-api-token"
+    export PUBLIC_KEY="$HOME/.ssh/id_rsa.pub"
 
     terraform init
-    terraform apply -var DO_API_TOKEN="$DO_API_TOKEN" -var SSH_KEY_FILE="$SSH_KEY_FILE"
+    terraform apply -var APITOKEN="$API" -var PUBLICKEY="$KEY"
 ````
 
 ## Finalize
-At the end you will get a complete list of BenchChain IP addresses that belong to all the new droplets that were launched via this deployment script
-At the end you will get a list of IP addresses that belongs to your new droplets.
+At the end you will get a complete list of BenchChain IP addresses that belong to all the new droplets that were launched via this deployment script.
 
 
 Destroy BenchChain Node
